@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-track-background text-track-foreground;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Focus styles */
+*:focus-visible {
+  @apply outline-none ring-2 ring-track-accent ring-offset-2 ring-offset-track-background;
+}
+
+/* Selection */
+::selection {
+  @apply bg-track-accent/30 text-track-foreground;
+}
