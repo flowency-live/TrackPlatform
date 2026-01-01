@@ -62,7 +62,7 @@ export default function ContactSection() {
                 required
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                className="w-full px-4 py-3 bg-track-card border-2 border-track-primary/30 text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors"
+                className="w-full px-4 py-3 bg-track-card border border-track-border text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors"
                 placeholder="Your name"
               />
             </div>
@@ -76,7 +76,7 @@ export default function ContactSection() {
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="w-full px-4 py-3 bg-track-card border-2 border-track-primary/30 text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors"
+                className="w-full px-4 py-3 bg-track-card border border-track-border text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors"
                 placeholder="you@company.com"
               />
             </div>
@@ -91,7 +91,7 @@ export default function ContactSection() {
               id="company"
               value={formData.company}
               onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-              className="w-full px-4 py-3 bg-track-card border-2 border-track-primary/30 text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors"
+              className="w-full px-4 py-3 bg-track-card border border-track-border text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors"
               placeholder="Your company name"
             />
           </div>
@@ -106,7 +106,7 @@ export default function ContactSection() {
               required
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-              className="w-full px-4 py-3 bg-track-card border-2 border-track-primary/30 text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors resize-none"
+              className="w-full px-4 py-3 bg-track-card border border-track-border text-track-foreground placeholder-track-muted-foreground focus:border-track-accent focus:outline-none transition-colors resize-none"
               placeholder="Tell us about your asset management needs..."
             />
           </div>
@@ -114,19 +114,19 @@ export default function ContactSection() {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="w-full px-8 py-4 bg-track-accent text-white font-semibold text-lg hover:bg-track-accent-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-8 py-4 bg-track-accent text-white font-semibold text-lg hover:bg-track-accent-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === 'loading' ? 'Sending...' : 'Send Message'}
           </button>
 
           {status === 'success' && (
-            <p className="text-center text-green-400">
+            <p className="text-center text-green-600">
               Thank you for your message. We will be in touch soon.
             </p>
           )}
 
           {status === 'error' && (
-            <p className="text-center text-red-400">
+            <p className="text-center text-red-600">
               Something went wrong. Please email us directly at track@opstack.uk
             </p>
           )}
@@ -135,7 +135,7 @@ export default function ContactSection() {
         <div className="mt-12 text-center">
           <p className="text-track-muted-foreground">
             Prefer email? Contact us at{' '}
-            <a href="mailto:track@opstack.uk" className="text-track-accent hover:text-track-accent-light transition-colors">
+            <a href="mailto:track@opstack.uk" className="text-track-accent hover:text-track-accent-dark transition-colors">
               track@opstack.uk
             </a>
           </p>

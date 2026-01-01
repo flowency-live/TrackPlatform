@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="py-12 px-4 sm:px-6 lg:px-8 bg-track-muted border-t border-track-primary/20">
+    <footer className="py-12 px-4 sm:px-6 lg:px-8 bg-track-background-alt border-t border-track-border">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-3">
@@ -55,7 +55,7 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-track-primary/20 text-center">
+        <div className="mt-8 pt-8 border-t border-track-border text-center">
           <p className="text-sm text-track-muted-foreground">
             {new Date().getFullYear()} Track. Part of the OpStack family.
           </p>

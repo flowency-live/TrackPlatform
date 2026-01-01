@@ -14,7 +14,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-track-background/95 backdrop-blur-sm border-b border-track-primary/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-track-background/95 backdrop-blur-sm border-b border-track-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-3">
@@ -40,7 +40,7 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              className="px-4 py-2 bg-track-accent text-white font-medium hover:bg-track-accent-light transition-colors"
+              className="px-4 py-2 bg-track-accent text-white font-medium hover:bg-track-accent-dark transition-colors"
             >
               Get Started
             </a>
@@ -62,7 +62,7 @@ export default function Navbar() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-track-primary/20">
+          <div className="md:hidden py-4 border-t border-track-border">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -75,7 +75,7 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              className="block mt-4 px-4 py-2 bg-track-accent text-white font-medium text-center hover:bg-track-accent-light transition-colors"
+              className="block mt-4 px-4 py-2 bg-track-accent text-white font-medium text-center hover:bg-track-accent-dark transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Get Started

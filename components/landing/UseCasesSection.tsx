@@ -19,7 +19,7 @@ const useCases = [
 
 export default function UseCasesSection() {
   return (
-    <section id="use-cases" className="py-20 px-4 sm:px-6 lg:px-8 bg-track-background-light">
+    <section id="use-cases" className="py-20 px-4 sm:px-6 lg:px-8 bg-track-background-alt">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-track-foreground mb-4">
@@ -34,8 +34,7 @@ export default function UseCasesSection() {
           {useCases.map((useCase) => (
             <div
               key={useCase.title}
-              className="group relative p-8 border-2 bg-track-card transition-all duration-300 hover:translate-y-[-4px]"
-              style={{ borderColor: 'hsl(215 45% 45% / 0.35)' }}
+              className="group relative p-8 border bg-track-card transition-all duration-300 hover:translate-y-[-4px] hover:shadow-lg border-track-border"
             >
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-track-primary/40 group-hover:bg-track-accent transition-colors" />
 
