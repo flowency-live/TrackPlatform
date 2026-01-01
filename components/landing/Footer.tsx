@@ -20,19 +20,19 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <a
               href="#features"
-              className="text-track-muted-foreground hover:text-track-accent transition-colors"
+              className="text-track-muted-foreground hover:text-track-primary transition-colors"
             >
               Features
             </a>
             <a
               href="#use-cases"
-              className="text-track-muted-foreground hover:text-track-accent transition-colors"
+              className="text-track-muted-foreground hover:text-track-primary transition-colors"
             >
               Use Cases
             </a>
             <a
               href="#contact"
-              className="text-track-muted-foreground hover:text-track-accent transition-colors"
+              className="text-track-muted-foreground hover:text-track-primary transition-colors"
             >
               Contact
             </a>

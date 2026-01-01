@@ -75,13 +75,13 @@ export default function FeaturesSection() {
               key={feature.title}
               className="group relative p-8 border bg-track-card transition-all duration-300 hover:translate-y-[-4px] border-track-border"
             >
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-track-primary/40 group-hover:bg-track-accent transition-colors" />
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-track-primary group-hover:bg-track-primary-light transition-colors" />
 
-              <div className="text-track-accent mb-4">
+              <div className="text-track-primary mb-4">
                 {feature.icon}
               </div>
 
-              <h3 className="text-xl font-semibold text-track-foreground mb-3 group-hover:text-track-accent transition-colors">
+              <h3 className="text-xl font-semibold text-track-foreground mb-3 group-hover:text-track-primary transition-colors">
                 {feature.title}
               </h3>
 

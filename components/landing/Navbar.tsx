@@ -33,7 +33,7 @@ export default function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-track-muted-foreground hover:text-track-accent transition-colors"
+                className="text-track-muted-foreground hover:text-track-primary transition-colors"
               >
                 {link.name}
               </a>

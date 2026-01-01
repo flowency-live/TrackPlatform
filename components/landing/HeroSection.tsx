@@ -19,7 +19,7 @@ export default function HeroSection() {
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-track-foreground mb-6">
             Asset, Fleet &{' '}
-            <span className="text-track-accent">Operational Control</span>
+            <span className="text-track-primary">Operational Control</span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-track-muted-foreground mb-8 max-w-3xl mx-auto">
