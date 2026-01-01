@@ -29,7 +29,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact"
-              className="px-8 py-4 bg-track-accent text-white font-semibold text-lg hover:bg-track-accent-dark transition-colors"
+              className="px-8 py-4 bg-track-accent text-track-background font-semibold text-lg hover:bg-track-accent-light transition-colors"
             >
               Request a Demo
             </a>

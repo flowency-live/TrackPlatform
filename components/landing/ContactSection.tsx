@@ -114,19 +114,19 @@ export default function ContactSection() {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="w-full px-8 py-4 bg-track-accent text-white font-semibold text-lg hover:bg-track-accent-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-8 py-4 bg-track-accent text-track-background font-semibold text-lg hover:bg-track-accent-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === 'loading' ? 'Sending...' : 'Send Message'}
           </button>
 
           {status === 'success' && (
-            <p className="text-center text-green-600">
+            <p className="text-center text-green-400">
               Thank you for your message. We will be in touch soon.
             </p>
           )}
 
           {status === 'error' && (
-            <p className="text-center text-red-600">
+            <p className="text-center text-red-400">
               Something went wrong. Please email us directly at track@opstack.uk
             </p>
           )}
@@ -135,7 +135,7 @@ export default function ContactSection() {
         <div className="mt-12 text-center">
           <p className="text-track-muted-foreground">
             Prefer email? Contact us at{' '}
-            <a href="mailto:track@opstack.uk" className="text-track-accent hover:text-track-accent-dark transition-colors">
+            <a href="mailto:track@opstack.uk" className="text-track-accent hover:text-track-accent-light transition-colors">
               track@opstack.uk
             </a>
           </p>

@@ -40,7 +40,7 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              className="px-4 py-2 bg-track-accent text-white font-medium hover:bg-track-accent-dark transition-colors"
+              className="px-4 py-2 bg-track-accent text-track-background font-medium hover:bg-track-accent-light transition-colors"
             >
               Get Started
             </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              className="block mt-4 px-4 py-2 bg-track-accent text-white font-medium text-center hover:bg-track-accent-dark transition-colors"
+              className="block mt-4 px-4 py-2 bg-track-accent text-track-background font-medium text-center hover:bg-track-accent-light transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Get Started

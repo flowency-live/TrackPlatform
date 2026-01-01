@@ -34,7 +34,7 @@ export default function UseCasesSection() {
           {useCases.map((useCase) => (
             <div
               key={useCase.title}
-              className="group relative p-8 border bg-track-card transition-all duration-300 hover:translate-y-[-4px] hover:shadow-lg border-track-border"
+              className="group relative p-8 border bg-track-card transition-all duration-300 hover:translate-y-[-4px] border-track-border"
             >
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-track-primary/40 group-hover:bg-track-accent transition-colors" />
 
