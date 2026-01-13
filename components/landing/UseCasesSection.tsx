@@ -4,8 +4,8 @@ const useCases = [
   {
     title: 'Mobile Medical & Diagnostic Units',
     description: 'Mobile MRI scanners, diagnostic trailers, and specialist treatment units worth millions. Track location, maintenance schedules, calibration compliance, and chain of custody. Know exactly where your units are deployed and when they need servicing.',
-    image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=500&fit=crop',
-    imageAlt: 'Mobile medical diagnostic unit',
+    image: '/images/usecase-mobile-medical.png',
+    imageAlt: 'Mobile medical diagnostic unit outside a Medical Centre',
   },
   {
     title: 'Outside Broadcast & Production',
