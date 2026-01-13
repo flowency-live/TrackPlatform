@@ -8,10 +8,10 @@ const useCases = [
     imageAlt: 'Mobile medical diagnostic unit outside a Medical Centre',
   },
   {
-    title: 'Outside Broadcast & Production',
-    description: 'OB trucks, satellite uplink vehicles, and mobile production units that keep live TV on air. Track equipment assignments, generator hours, technical certifications, and deployment schedules across productions and venues.',
-    image: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=500&fit=crop',
-    imageAlt: 'Broadcast production equipment',
+    title: 'Film & TV Production Infrastructure',
+    description: 'Temporary production infrastructure that lives on location for weeks or months. Camera packages, lighting rigs, power units, and mobile offices deployed across shoots and sites. Know what\'s where, who has custody, and when it\'s ready for redeployment.',
+    image: '/images/usecase-film-production.png',
+    imageAlt: 'Film production equipment and trailers on rural location',
   },
   {
     title: 'PA, Lighting & Event Production',
