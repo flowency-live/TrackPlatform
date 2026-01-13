@@ -77,11 +77,11 @@ export default function FeaturesSection() {
             >
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-track-primary group-hover:bg-track-primary-light transition-colors" />
 
-              <div className="text-track-primary mb-4">
+              <div className="text-track-primary-card mb-4">
                 {feature.icon}
               </div>
 
-              <h3 className="text-xl font-semibold text-track-foreground mb-3 group-hover:text-track-primary transition-colors">
+              <h3 className="text-xl font-semibold text-track-foreground mb-3 group-hover:text-track-primary-card transition-colors">
                 {feature.title}
               </h3>
 

@@ -12,6 +12,7 @@ const config: Config = {
         track: {
           primary: '#6080A9',
           'primary-light': '#7A9BBF',
+          'primary-card': '#94B8D8',
           'primary-dark': '#4A6A8F',
           accent: '#FBC463',
           'accent-light': '#FCD285',
@@ -21,7 +22,7 @@ const config: Config = {
           card: '#3E3E3E',
           'card-light': '#4A4A4A',
           foreground: '#FFFFFF',
-          'muted-foreground': '#A0A0A0',
+          'muted-foreground': '#B5B5B5',
           muted: '#2A2A2A',
           border: '#505050',
         },

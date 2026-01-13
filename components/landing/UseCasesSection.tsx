@@ -59,7 +59,7 @@ export default function UseCasesSection() {
               </div>
 
               <div className="p-8 pt-4">
-                <h3 className="text-xl font-semibold text-track-foreground mb-3 group-hover:text-track-primary transition-colors">
+                <h3 className="text-xl font-semibold text-track-foreground mb-3 group-hover:text-track-primary-card transition-colors">
                   {useCase.title}
                 </h3>
 
